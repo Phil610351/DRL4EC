@@ -319,7 +319,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    # decompose the multi-objective problem to be 100 scaler subproblems.
+    # decompose the multi-objective problem to be 50 scaler subproblems.
     T = 50
 
     if args.task == 'ec':
